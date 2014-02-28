@@ -10,7 +10,7 @@
 Summary:	Standalone file import filter library for spreadsheet documents
 Name:		%{oname}%{api}
 Version:	0.3.0
-Release:	5
+Release:	6
 Group:		Office
 License:	MIT
 Url:		http://gitorious.org/orcus

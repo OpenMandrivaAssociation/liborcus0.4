@@ -1,4 +1,5 @@
 %define _disable_ld_no_undefined 1
+%define Werror_cflags %nil
 
 %define oname	liborcus
 %define api	0.4

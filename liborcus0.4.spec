@@ -64,7 +64,7 @@ Tools for working with Orcus.
 
 %prep
 %setup -qn %{oname}_%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 %configure \

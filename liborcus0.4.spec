@@ -18,6 +18,11 @@ Url:		https://gitorious.org/orcus
 Source0:	http://kohei.us/files/orcus/src/%{oname}_%{version}.tar.bz2
 Patch0:		liborcus_0.3.0-boost.patch
 Patch1:		liborcus-0.5.1-fix_build.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	boost-devel
 BuildRequires:	mdds-devel
 BuildRequires:	pkgconfig(libixion-0.6)
